@@ -17,8 +17,8 @@ const db = mongoose.connection;
 
 app.use("/books", bookRoutes);
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log(`Servidor iniciado en el puerto: ${port}...`);
+app.listen(PORT, () => {
+  console.log(`Servidor iniciado en el puerto: ${PORT}...`);
 });
