@@ -1,4 +1,0 @@
-db.createUser({ user: "ES7", pwd: "123456", roles: [{ role: "readWrite", db: "books" }] })
-use books
-use admin
-use books
