@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-node-crud",
+  "version": "1.0.0",
+  "description": "Se realiza un CRUD con NodeJs y MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "nodemon src/app.js"
+  },
+  "author": "ES7",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2"
+  }
+}
